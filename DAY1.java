@@ -32,16 +32,19 @@ class Solution{
 			
 		}
 		
-	
-		
-		void reverseIndividualWord(String s){
-			char[] charArr=s.toCharArray();
-			int size=charArr.length;
-			for(int i=size-1;i>=0;i--)
-			{
-				System.out.print(charArr[i]);
+		String reverseIndividualWord(String input){
+			String output = "";
+			int index = 0;
+
+			for (int i = 0;i<input.length() ; i++) {
+				if(input.charAt(i) == ' '){
+					index = i+1;
+					output += input.charAt(i);
+				}else{
+					output = output.substring(0,index) + input.charAt(i) + output.substring(index); 
+				}
 			}
-			
+			return output;
 		}
 		
 		void primeNumber(){
@@ -131,10 +134,10 @@ class Assignment{
 
 		
 		System.out.println();
-		System.out.println("SOLUTION2: letterFrequency");
+		System.out.println("SOLUTION2: Reverse Individual Word.");
 		System.out.print("Enter a line: ");
 		String s2 = scan.nextLine();
-		s.reverseIndividualWord(s2);
+		System.out.println(s.reverseIndividualWord(s2));
 		
 		
 		
