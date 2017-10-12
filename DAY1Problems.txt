@@ -1,0 +1,27 @@
+Ques 1: Print pattern(diamond).
+
+		*
+	*		*
+*		*		*
+	*		*
+		*
+
+Ques 2:
+input THIS IS MY WORLD
+output SIHT SI YM DLROW
+
+Ques 3:
+
+input: WELCOME
+output: W	1
+		E	2
+		L	1
+		C	1
+		O	1
+		M	1
+		
+Ques 4:
+		Find first 10 Armstrong Number.
+		
+Ques 5:
+		Find first 10 prime Number.
