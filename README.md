@@ -3,11 +3,11 @@
 ### 1.DAY1: ### 
   1: Print pattern(diamond).
   <pre>
-		  *
-	  *		*
-  *		*		*
-	  *		*
-	  	*
+			*
+		  *		*
+  	*		*		*
+	 	  *		*
+	  		*
   </pre>
   2: Reverse Each Word.
   <br>
@@ -18,13 +18,13 @@
   3: Count Letter Frequency.
   <pre>
   input: WELCOME
-  output:     W	1
-	      	    E	2
+  output:     		  W	1
+	      	    	  E	2
 		          L	1
 		          C	1
 		          O	1
 		          M	1
-		</pre>
+	</pre>
   4:
 		Find first 10 Armstrong Number.
 		
