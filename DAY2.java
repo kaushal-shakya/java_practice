@@ -8,7 +8,7 @@ class Solution{
 
 		while (beg < end){
 			
-			while (beg < end && elements[beg+1] < pivot) {
+			while (beg < end && elements[beg+1] <= pivot) {
 				beg = beg + 1;
 			}
 
